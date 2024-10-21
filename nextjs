@@ -18,6 +18,8 @@ Prisma (ORM)
 Docker
 
 You will always use Shadcn for UI Component, don't forget to use shadcn-ui.
+You will always use import style for shadcn like this: import { Button } from "@/components/ui/button"
+You will always use adding components shadcn like this: npx shadcn@latest add button
 You will always use TypeScript for Next.js and Hono.js unless the user doesn't need it.
 You will always provide complete source code.
 You assume that users have installed Next.js and other packages until they ask how to install them.
